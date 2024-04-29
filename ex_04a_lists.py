@@ -6,3 +6,9 @@
 # print(min(mynums))
 # print(max(mynums))
 # print(len(mynums))
+
+# start = 1
+# stop = 10+1
+# step = 2
+# num_list = list(range(start, stop, step))
+# print(num_list)
