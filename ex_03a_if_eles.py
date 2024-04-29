@@ -86,8 +86,8 @@
 # if 3 < x < 10:
 #     print("x is more than 3 and less than 10.")
 
-firstcost = float(input("How much is the first thing you bought?"))
-secondcost = float(input("How much is the second thing you bought?"))
-total = firstcost + secondcost
-discounted = total * 0.9
-print(f"""The total cost would be {total}. However, we're doing a special today, so you get a 10% discount. That means you actually pay {discounted}""")
+# firstcost = float(input("How much is the first thing you bought?"))
+# secondcost = float(input("How much is the second thing you bought?"))
+# total = firstcost + secondcost
+# discounted = total * 0.9
+# print(f"""The total cost would be {total}. However, we're doing a special today, so you get a 10% discount. That means you actually pay {discounted}""")
