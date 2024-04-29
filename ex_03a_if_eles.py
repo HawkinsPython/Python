@@ -62,3 +62,22 @@
 # else:
 #     print("You were born after 2000.")
 
+# name = input("What is your name? (type it lowercase please.)")
+# print("Ok, let me look up that name...")
+# if name =="bob":
+#     print("That name use to be common, I think.")
+# elif name == "sue":
+#     print("Your name also refers to a legal action.")
+# elif name == "rob":
+#     print("Another abbreviation for robert, correct?")
+# elif name == "lacy":
+#     print("Does the origin of your name relate to lace?")
+# else:
+#     print("I don't know you.")
+# print("Done.")
+
+# x = int(input("Enter a number: ")) 
+# if x < 20: 
+#     print("A") 
+#     print("B") 
+# print("C") 
