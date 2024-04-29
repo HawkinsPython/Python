@@ -91,3 +91,16 @@
 # total = firstcost + secondcost
 # discounted = total * 0.9
 # print(f"""The total cost would be {total}. However, we're doing a special today, so you get a 10% discount. That means you actually pay {discounted}""")
+
+# x = float(input("Type a non-whole number. "))
+# print(f"One more would be {x + 1}.")
+
+# color = input("What color is water?")
+# if color == "blue" or color == "transparent":
+#     print("yes I agree.")
+# else:
+#     print("I'm not sure about that.")
+
+
+
+    
