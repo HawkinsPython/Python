@@ -32,3 +32,33 @@
 # else:
 #     print("You are legally allowed to drink. Drink responsibly!")
 
+# thename = input("What is your name? ")
+# if thename == "george":
+#     print("Are you named after the first US President")
+# else:
+#     print("hello.")
+
+# name = input("What is your name? ")
+# print(f"The lowercase version of that is {name.lower()}.")
+# if name.lower() == "joe":
+#     print("Your name rhymes with low.")
+# else:
+#     print(f"Hey{name}.")
+
+# name = input("What is your name? ")
+# if name.lower() != "jay":
+#     print("Your name is not Jay.")
+# print("Greetings.")
+
+# age = int(input("How old are you?"))
+# ageNextyear = age + 1
+# print(ageNextyear)
+
+# birthyear = int(input("Type a year."))
+# if birthyear < 2000:
+#     print("You were born before 2000.")
+# elif birthyear == 2000:
+#     print("You were born in 2000.")
+# else:
+#     print("You were born after 2000.")
+
