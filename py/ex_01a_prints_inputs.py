@@ -91,3 +91,6 @@
 # print(f"The type of y is {type(y)}, which is another way to say 'integer'.")
 # print(x*y)
 
+# somenumber = 2
+# if somenumber != 0:
+#     print("Something happened.")
