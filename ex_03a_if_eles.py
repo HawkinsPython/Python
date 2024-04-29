@@ -24,6 +24,12 @@
 # else:
 #     print("You are legally allowed to drink. Drink responsibly.")
 
-Import random
-age = random.randint(18, 24)
-print()
+# import random
+# age = random.randint(18, 24)
+# print(f"pretend that you are {age} years old.")
+# if age < 21:
+#     print("You can't drink alcohol in the US yet.")
+# else:
+#     print("You are legally allowed to drink. Drink responsibly!")
+
+thename = input()
