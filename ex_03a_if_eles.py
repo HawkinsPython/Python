@@ -24,3 +24,6 @@
 # else:
 #     print("You are legally allowed to drink. Drink responsibly.")
 
+Import random
+age = random.randint(18, 24)
+print()
