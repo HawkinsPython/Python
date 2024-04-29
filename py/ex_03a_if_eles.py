@@ -16,3 +16,10 @@
 #     print("Your name rhymes with low")
 #     print("Have a good day.")
 
+
+# import random
+# name = random.choice(["bbob", "susan", "joe", "anna"])
+# print(f"Hey {name}.")
+# if name == "joe":
+#     print("Your name rhymes with low.")
+

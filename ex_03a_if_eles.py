@@ -23,3 +23,4 @@
 #     print("You can't drink alcohol in the us yet.")
 # else:
 #     print("You are legally allowed to drink. Drink responsibly.")
+
