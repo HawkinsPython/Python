@@ -32,4 +32,3 @@
 # else:
 #     print("You are legally allowed to drink. Drink responsibly!")
 
-thename = input()
