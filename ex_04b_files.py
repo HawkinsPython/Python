@@ -1,0 +1,26 @@
+# f = open("something_very_unique_file.txt" , "w", encoding="utf-8")
+# f.write("Here are some words.\n")
+# f.write("More words.\n")
+# f.close()
+
+# f = open("my_thoughts.txt", "w", encoding="utf-8")
+# f.write("These are my thoughts.\n")
+# f.write("My thoughts are many.\n")
+# f.write("My thoughts are orginized.\n")
+# f.write("Thoughts can be spoken.\n")
+# f.write("We think when we are bored.\n")
+# f.close()
+
+# f = open("something_very_unique_file.txt", "r", encoding="utf-8")
+# contents = f.read()
+# print(contents)
+# f.close()
+
+# f = open("thoughts.txt", "w", encoding="utf-8")
+# f.write("These are my thoughts.")
+# f.write("My thoughts are many.")
+# f.write("My thoughts are orginized.")
+# f.write("Thoughts can be spoken.")
+# f.write("We think when we are bored.")
+# f.close()
+
