@@ -64,7 +64,28 @@
 #     print("That ends with an 's', so it mught be plural.")
 # print("That's all I have to say.")
 
+# for num in range(1,5):
+#     print(num)
 
+# qVmGyAvNupio0m1IEl0ktA==
+# The meaning of life
+
+
+# fruits = ["strawberry", "mango", "raspberry", "blueberry", "grape", "melon"]
+# berryCount = 0
+# for fr in fruits:
+#     if fr.endswith("berry"):
+#         berryCount += 1
+# print("I've finished counting the fruits.")
+# print(f"There were {berryCount} that ended with berry.")
+
+# fruits = ["strawberry", "mango", "raspberry", "blueberry", "grape", "melon"]
+# berryCount = 0
+# for fr in fruits:
+#     if fr.startswith("m"):
+#         berryCount += 1
+# print("I've finished counting the fruits.")
+# print(f"There were {berryCount} that ended with m.")
 
 
 
