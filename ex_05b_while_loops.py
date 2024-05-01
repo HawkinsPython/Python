@@ -27,3 +27,35 @@
 # print("start...")
 # time.sleep(1)
 # print("done.")
+
+# keepGoing = "yes"
+# while keepGoing == "yes":
+#     print("since the variable keepGoing is still 'yes', I am going to keep going.")
+#     keepGoing = input("Do you want me to keep going?")
+# print("Ok, you typed something other then 'yes', so I stopped.")
+
+# keepGoing = "yes"
+# while keepGoing == "yes" or keepGoing == "y":
+#     print("continuing")
+#     keepGoing = input("Do you want me to keep going?")
+# print("Ok, stopping.")
+
+# keepGoing = "yes"
+# while keepGoing in ["yes", "y"]:
+#     print("Continuing.")
+#     keepGoing = input("Do you want me to keep going? ")
+# print("Ok, stopping.")
+
+# keepGoing = "yes"
+# while keepGoing not in ["no", "no thanks"]:
+#     print("Continuing.")
+#     keepGoing = input("Do you want me to keep going? ")
+# print("Ok, stopping.")
+
+# while 2 +2 == 4:
+#     print("Continuing.")
+#     keepGoing = input("Do you want me to keep going? ")
+#     if keepGoing in ["no", "no thanks"]:
+#         break
+# print("Ok, stopping.")
+
