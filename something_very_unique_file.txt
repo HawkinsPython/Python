@@ -1,2 +1,5 @@
-Here are some words.
-More words.
+The instructor Maria is 38 years old and has 7 years of experience.
+The instructor Walton is 47 years old and has 22 years of experience.
+The instructor Martin is 52 years old and has 18 years of experience.
+The instructor Joel is 28 years old and has 3 years of experience.
+The instructor Tate is 67 years old and has 5 years of experience.
