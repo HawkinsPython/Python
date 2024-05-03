@@ -15,4 +15,4 @@ with open(output, "w") as output:
         else:
             output.write(f"{name_str} is {age} years old, and is NOT old enough to ride a dinosaur.\n")
     output.write(f"{count_old} people are old enough to ride a dinosaur.\n")
-print("Report Complete.")
+print("Report Completed.")

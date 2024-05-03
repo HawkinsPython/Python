@@ -1,6 +1,4 @@
-something = output
-output = input("Filename for output file: ")
-f = open({something}, "w", encoding="utf-8")
+f = open("{something_very_unique_file.txt}", "w", encoding="utf-8")
 instructors = [["Maria", 38, 7], ["Walton", 47, 22], ["Martin", 52, 18],
                   ["Joel", 28, 3], ["Tate", 67, 5]]
 print("Here is my instructor data:")
