@@ -1,8 +1,7 @@
-﻿Fred is 38 years old, and is old enough to ride a dinosaur.
-Wilma is 33 years old, and is old enough to ride a dinosaur.
-Pebbles is 6 years old, and is NOT old enough to ride a dinosaur.
-Betty is 29 years old, and is old enough to ride a dinosaur.
-Barney is 37 years old, and is old enough to ride a dinosaur.
-Bambam is 6 years old, and is NOT old enough to ride a dinosaur.
-Joe is 1 years old, and is NOT old enough to ride a dinosaur.
-4 people are old enough to ride a dinosaur.
+Fred,38
+Wilma,33
+Pebbles,6
+Betty,29
+Barney,37
+Bambam,6
+Joe,1

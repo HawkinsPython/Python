@@ -1,0 +1,221 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><style>
+pre {
+    background-color: #EEEEEE;
+    width: fit-content;
+}
+code {
+    background-color: #EEEEFF;
+    width: fit-content;
+}
+.borderless {
+    border: none;
+}
+.markdown-wrapper table, td, th {
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+}
+div.wrapper{
+    margin: 50px;
+}
+pre{
+    margin-left: 50px;
+}
+.money{
+    color: green;
+}
+</style>
+</head><body><div class="wrapper">
+<form method="POST" action="/submission" enctype="multipart/form-data">
+    <h1>python_4_for_loops_file_IO</h1>
+    <input type="hidden" name="submitted_pe_id" value="python_4_for_loops_file_IO">
+    <input type="hidden" name="postproc" value="python_submission">
+    Name:
+    <select name="full_name">
+        <option selected="selected"></option>
+        
+            <option>009_duong,david</option>
+        
+            <option>009_gamarra,alexis</option>
+        
+            <option>009_gibbs,devin</option>
+        
+            <option>009_gibson,paul</option>
+        
+            <option>009_gonzales,jesus</option>
+        
+            <option>009_guillen,jose</option>
+        
+            <option>009_harvey_jones,kiara</option>
+        
+            <option>009_hawkins,guy</option>
+        
+            <option>009_hierro,michael</option>
+        
+            <option>009_holbrook,dakota</option>
+        
+            <option>009_huff,braylon</option>
+        
+            <option>009_meineke,perla</option>
+        
+            <option>009_montedeoca,franchesca</option>
+        
+            <option>009_noe,robert</option>
+        
+            <option>009_patton,calvin</option>
+        
+            <option>009_perez,israel</option>
+        
+            <option>009_peterson,nicolas</option>
+        
+            <option>009_phillippi,angela</option>
+        
+            <option>009_ramirez,amaury</option>
+        
+            <option>009_streeter,ethan</option>
+        
+            <option>200_baggs,guillaume</option>
+        
+            <option>200_nicholson,christian</option>
+        
+            <option>200_sincebaugh,dennis</option>
+        
+            <option>200_sudderth,blaise</option>
+        
+            <option>200_wofford,audrey</option>
+        
+            <option>Mikla</option>
+        
+    </select>
+     
+        <hr>
+        <div class="markdown-wrapper">
+        <!-- 
+## BEGIN CONFIG
+postproc = "python_submission" 
+points = 100
+## END CONFIG
+-->
+
+<h2>Instructions</h2>
+<p>👉 Manually (without Python), create a text file named "users.txt" with the following names and ages:</p>
+<pre>Fred,38
+Wilma,33
+Pebbles,6
+Betty,29
+Barney,37
+Bambam,6
+Joe,1
+</pre>
+
+<p>👉 Read the lines of the input file into a list using this code: </p>
+<pre>f = open("users.txt", "r")  
+lines = f.read().splitlines()  
+f.close()  
+print(f"Data: {len(lines)} lines loaded.")
+</pre>
+
+<p>👉 Ask the user, "Filename for output file: " </p>
+<p>👉 Display "Writing report to _____" using the name of the output file.</p>
+<p>👉 Write the name, the age, and whether the user is old enough to 
+ride a 🦖 dinosaur to the output file. (Minimum age: 23.) This code may 
+help:</p>
+<pre>for line in lines:  
+    name_str, age_str = line.split(",")  
+    ## Add code here as needed.
+</pre>
+
+<p>👉 After writing the info for each person, write a count of how many were old enough to ride.</p>
+<p>👉 Display "Report Completed".</p>
+<p>👉 Note: We will test your code with a different <code>users.txt</code> file, so make sure your code is generic, i.e., the names and ages are not "hardcoded" in your <code>.py</code> file.</p>
+<h2>Example run:</h2>
+<p>Displayed:
+</p><pre>Data: 7 lines loaded.
+Filename for output file:  age_report.txt
+Writing report to age_report.txt.
+Report Completed.
+</pre><p></p>
+<p>Output File:
+</p><pre>Fred is 38 years old, and is old enough to ride a dinosaur.
+Wilma is 33 years old, and is old enough to ride a dinosaur.
+Pebbles is 6 years old, and is NOT old enough to ride a dinosaur.
+Betty is 29 years old, and is old enough to ride a dinosaur.
+Barney is 37 years old, and is old enough to ride a dinosaur.
+Bambam is 6 years old, and is NOT old enough to ride a dinosaur.
+Joe is 1 years old, and is NOT old enough to ride a dinosaur.
+4 people are old enough to ride a dinosaur.
+</pre><p></p>
+<p>🏁 🏆 </p>
+<hr>
+<h2>Grading Rubric:</h2>
+<table>
+<thead>
+<tr>
+<th align="center">%</th>
+<th align="center">pts/25</th>
+<th>Criteria</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">-10%</td>
+<td align="center">-2.5</td>
+<td>Input file is called <code>users.txt</code>.</td>
+</tr>
+<tr>
+<td align="center">-10%</td>
+<td align="center">-2.5</td>
+<td>Correctly displays the number of lines loaded from the input file.</td>
+</tr>
+<tr>
+<td align="center">-10%</td>
+<td align="center">-2.5</td>
+<td>Prompts the user for the name of the output file.</td>
+</tr>
+<tr>
+<td align="center">-10%</td>
+<td align="center">-2.5</td>
+<td>Displays "Writing report to _____" using the name of the output file.</td>
+</tr>
+<tr>
+<td align="center">-10%</td>
+<td align="center">-2.5</td>
+<td>Creates a file with the name provided by the user.</td>
+</tr>
+<tr>
+<td align="center">-15%</td>
+<td align="center">-3.75</td>
+<td>Writes the name, the age, and whether the user is old enough to ride into the output file.</td>
+</tr>
+<tr>
+<td align="center">-15%</td>
+<td align="center">-3.75</td>
+<td>Old-enough decision is determined correctly.</td>
+</tr>
+<tr>
+<td align="center">-15%</td>
+<td align="center">-3.75</td>
+<td>Count is computed correctly and written to the output file.</td>
+</tr>
+<tr>
+<td align="center">-5%</td>
+<td align="center">-1.25</td>
+<td>Displays Report Complete.</td>
+</tr>
+</tbody>
+</table>
+        </div>
+        <hr>
+    
+<table>
+    
+    <tbody><tr><td class="borderless">File Upload:</td> 
+    
+    <td><input type="file" name="file"></td>
+    </tr>            
+</tbody></table>
+
+
+    <input type="submit" value="Submit">
+</form>
+</div></body></html>
