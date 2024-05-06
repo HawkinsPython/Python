@@ -1,7 +1,7 @@
 import random
 
 while True:
-        question = input("Ask the magic eight ball a question, or enter 'no' to quit? ")
+        question = input("Ask the 🎱 a question, or enter 'no' to quit. ")
         if question.lower() in ["NO", "No",'no',"N", "n"]:
             print("Goodbye, See you next time.")
             break
