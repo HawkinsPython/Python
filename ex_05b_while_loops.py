@@ -112,3 +112,37 @@
 #     print("Continuing.")
 #     keepGoing = input("Do you want me to keep going? ")
 # print("Ok, stopping.")
+
+# keepGoing = "yes"
+# while keepGoing == "yes":
+#     print("since the variable keepGoing is still 'yes', I am doing to keep going.")
+#     keepGiong = input("Do you want me to keep going?")
+# print("Ok, you typed somethong other then 'yes', so I stopped")
+
+
+# cars = ["BMW", "Acura", "GMC"]
+# print(F"Here is a list of the cars: {cars}.")
+# valid_responses = ["add", "remove", "exit"]
+# decision = ""
+# while decision.lower() != "exit":
+#     decision = input("Would you like to add or remove to the list? Type 'add', 'remove', or 'exit'. ")
+#     if decision.lower() == "add":
+#         new_car = input("Add new car here: ")
+#         if new_car in cars:
+#             print("Car already in list.")
+#         else:
+#             cars.append(new_car)
+#             print(f"{new_car} was added to the list.")
+#             print(f"Here is the updated iist; {cars}")
+#     elif decision.lower() =="remove":
+#         remove_car = input("Remove car here: ")
+#         if remove_car not in cars:
+#             print("car not found in list>")
+#         else:
+#             cars.remove(remove_car)
+#             print(f"{remove_car} was removed from the list.")
+#             print(f"Here is th eupdated list: {cars}")
+#     elif decision.lower() not in valid_responses:
+#         print("Invalid optionn.")
+# print(f"Here is the final list of cars: {cars}")
+
