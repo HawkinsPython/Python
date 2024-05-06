@@ -89,3 +89,9 @@
 
 
 
+
+
+
+print("Ask the ⚫ a question")
+print("Ask the 🎱 a question")
+print("🎱")
