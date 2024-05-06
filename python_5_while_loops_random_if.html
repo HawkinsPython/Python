@@ -1,0 +1,196 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><style>
+pre {
+    background-color: #EEEEEE;
+    width: fit-content;
+}
+code {
+    background-color: #EEEEFF;
+    width: fit-content;
+}
+.borderless {
+    border: none;
+}
+.markdown-wrapper table, td, th {
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+}
+div.wrapper{
+    margin: 50px;
+}
+pre{
+    margin-left: 50px;
+}
+.money{
+    color: green;
+}
+</style>
+</head><body><div class="wrapper">
+<form method="POST" action="/submission" enctype="multipart/form-data">
+    <h1>python_5_while_loops_random_if</h1>
+    <input type="hidden" name="submitted_pe_id" value="python_5_while_loops_random_if">
+    <input type="hidden" name="postproc" value="python_submission">
+    Name:
+    <select name="full_name">
+        <option selected="selected"></option>
+        
+            <option>009_duong,david</option>
+        
+            <option>009_gamarra,alexis</option>
+        
+            <option>009_gibbs,devin</option>
+        
+            <option>009_gibson,paul</option>
+        
+            <option>009_gonzales,jesus</option>
+        
+            <option>009_guillen,jose</option>
+        
+            <option>009_harvey_jones,kiara</option>
+        
+            <option>009_hawkins,guy</option>
+        
+            <option>009_hierro,michael</option>
+        
+            <option>009_holbrook,dakota</option>
+        
+            <option>009_huff,braylon</option>
+        
+            <option>009_meineke,perla</option>
+        
+            <option>009_montedeoca,franchesca</option>
+        
+            <option>009_noe,robert</option>
+        
+            <option>009_patton,calvin</option>
+        
+            <option>009_perez,israel</option>
+        
+            <option>009_peterson,nicolas</option>
+        
+            <option>009_phillippi,angela</option>
+        
+            <option>009_ramirez,amaury</option>
+        
+            <option>009_streeter,ethan</option>
+        
+            <option>200_baggs,guillaume</option>
+        
+            <option>200_nicholson,christian</option>
+        
+            <option>200_sincebaugh,dennis</option>
+        
+            <option>200_sudderth,blaise</option>
+        
+            <option>200_wofford,audrey</option>
+        
+            <option>Mikla</option>
+        
+    </select>
+     
+        <hr>
+        <div class="markdown-wrapper">
+        <!-- 
+## BEGIN CONFIG
+postproc = "python_submission" 
+points = 100
+## END CONFIG
+-->
+
+<h2>Instructions:</h2>
+<p>👉 Prompt the user: "Ask the 🎱 a question, or enter 'no' to quit".
+   NOTE: If you are using Thonny, type "eightball" instead of 🎱.</p>
+<p>👉 If the user asks any question, randomly display one of the replies
+ listed below. Then, prompt the user for another question.  </p>
+<ul>
+<li>Replies:  <ul>
+<li>It is Certain  </li>
+<li>Yes  </li>
+<li>You may rely on it  </li>
+<li>Ask again later  </li>
+<li>You've Got to be Kidding   </li>
+<li>Reply hazy, try again  </li>
+<li>My reply is NO WAY  </li>
+<li>My sources say no  </li>
+</ul>
+</li>
+</ul>
+<p>👉 If the user enters "no" or "n", then say "Goodbye, See you next time."  </p>
+<p>👉 The user must be able to type "no" or "n" with any capitalization.  </p>
+<p>👉 If the user says "no" or "n", it must exit the loop without a random response.</p>
+<h2>Example run:</h2>
+<h4>NOTE: Your question inputs do not need to match these.</h4>
+<pre>Ask the 🎱 a question, or enter 'no' to quit?  Is October a cold month?
+Ask again later
+Ask the 🎱 a question, or enter 'no' to quit? Why do birds fly?
+Reply hazy, try again
+Ask the 🎱 a question, or enter 'no' to quit? Will this class be hard?
+My sources say no
+Ask the 🎱 a question, or enter 'no' to quit? No
+Goodbye, See you next time.
+</pre>
+
+<p>🏁 🏆 </p>
+<hr>
+<h2>Grading Rubric:</h2>
+<table>
+<thead>
+<tr>
+<th align="center">%</th>
+<th align="center">pts/25</th>
+<th>Criteria</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">-10%</td>
+<td align="center">-2.5</td>
+<td>Prompts the user to ask a question.</td>
+</tr>
+<tr>
+<td align="center">-15%</td>
+<td align="center">-3.75</td>
+<td>If the user enters anything other than 'no' or 'n', displays a random reply.</td>
+</tr>
+<tr>
+<td align="center">-15%</td>
+<td align="center">-3.75</td>
+<td>Random reply is randomized in each iteration (no credit if <br>it only picks the random reply once at the beginning of the program).</td>
+</tr>
+<tr>
+<td align="center">-15%</td>
+<td align="center">-3.75</td>
+<td>Prompts the user for questions repeatedly (loops).</td>
+</tr>
+<tr>
+<td align="center">-15%</td>
+<td align="center">-3.75</td>
+<td>Continues the loop until the user says 'no' or 'n'.</td>
+</tr>
+<tr>
+<td align="center">-15%</td>
+<td align="center">-3.75</td>
+<td>If the user enters 'no' or 'n', displays the "Goodbye" message and nothing else.</td>
+</tr>
+<tr>
+<td align="center">-15%</td>
+<td align="center">-3.75</td>
+<td>In all above cases where "'no' or 'n'" is mentioned, the logic works correctly for any capitalization.</td>
+</tr>
+</tbody>
+</table>
+        </div>
+        <hr>
+    
+<table>
+    
+    <tbody><tr><td class="borderless">File Upload:</td> 
+    
+    <td><input type="file" name="file"></td>
+    </tr>            
+</tbody></table>
+
+
+    <input type="submit" value="Submit">
+</form>
+</div></body></html>
