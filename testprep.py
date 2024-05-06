@@ -47,6 +47,12 @@
 "THIS STILL NEEDS TO BE ANSWERED"
 
 ## 17
+print("""
+calculation    answer  explanation
+56+33          89      addition of the two numbers 
+45-5           40      subtraction of the two numbers
+65>34          True    checks if first number is greater than second number
+""")
 "THIS STILL NEEDS TO BE ANSWERED"
 
 ## 18
