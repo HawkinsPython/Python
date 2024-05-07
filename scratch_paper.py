@@ -16,11 +16,15 @@
 
 # print("code will add the 2 variables together")
 
-print("""
-code          answer       explanation
-20**5         3200000      20 to the power of 5 
-2+6             8          addition of the two numbers
-8==8          True         checks if first number is equal to the second number
-4=10      syntax Error     Tries to store the value of 10 into a variable of 4, leads to a cannot assign to literal error.
-20%80           20         divides first number by the second number, but only gives you the remainder 
-""")
+# print("""
+# code          answer       explanation
+# 20**5         3200000      20 to the power of 5 
+# 2+6             8          addition of the two numbers
+# 8==8          True         checks if first number is equal to the second number
+# 4=10      syntax Error     Tries to store the value of 10 into a variable of 4, leads to a cannot assign to literal error.
+# 20%80           20         divides first number by the second number, but only gives you the remainder 
+# """)
+
+# print("My favorite\ncar is\na 1970\nChevy\nChevelle\n")
+
+# print("Grind some coffee beans.\nPut a coffee filter in the coffee machine.\nNow put the ground beans in the coffee maker.\nLet the hot water flow through the beans.\nEnjoy your hot coffee!")
